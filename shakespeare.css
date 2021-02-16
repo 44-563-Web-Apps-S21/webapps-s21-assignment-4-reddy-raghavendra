@@ -1,35 +1,76 @@
-.speech{
+.speech {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    color: black;    
+    color: black;
 }
-.stage-direction{
+
+.stage-direction {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
     color: black;
-    background-color: lightblue;    
+    background-color: lightblue;
 }
-.stage-direction:hover{
+
+.stage-direction:hover {
     background-color: lightsalmon;
-    color: lightskyblue;
+    color: darkslateblue
 }
-.name{
+
+.name {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    color:black;
+    color: black;
 }
-.master{
-    color:brown;
+
+.name:hover {
+    background-color: lightpink;
+    border-style: solid;
+    text-shadow: 0 0 1px grey;
+    color: transparent;
 }
-.boatswain{
-    color:crimson;
+
+.boatswain {
+    color: darkviolet;
 }
-.alonso{
-    color:royalblue;
+
+.sebastian {
+    color: darkorange;
 }
-.antonio{
-    color:mediumvioletred;
+
+.alonso {
+    color: gray;
 }
-.gonzalo{
-    color:olivedrab;
+
+.antonio {
+    color: brown;
+}
+
+.gonzalo {
+    color: olivedrab;
+}
+
+.master {
+    color: yellowgreen;
+}
+
+table,
+td,
+th {
+    margin: 3%;
+    border-collapse: collapse;
+    border: solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+th {
+    background-color: lightslategray;
 }
