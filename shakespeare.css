@@ -24,7 +24,7 @@
 
 .name:hover {
     background-color: lightpink;
-    border-style: solid;
+    border-style: groove;
     text-shadow: 0 0 1px grey;
     color: transparent;
 }
@@ -73,4 +73,23 @@ tr:nth-child(odd) {
 
 th {
     background-color: lightslategray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    float: left;
+    background-color: lightgreen;
+    text-align: start;
+    display: flexbox;
+    padding: 8px;
+}
+
+li:hover {
+    background-color: darkgreen;
 }
