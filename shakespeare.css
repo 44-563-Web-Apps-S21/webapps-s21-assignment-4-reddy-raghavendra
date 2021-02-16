@@ -13,20 +13,22 @@
 
 .stage-direction:hover {
     background-color: lightsalmon;
-    color: darkslateblue
+    color: darkslateblue;
+    padding: 1%;
 }
 
 .name {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: black;
+    padding: 1%;
 }
 
 .name:hover {
     background-color: lightpink;
-    border-style: groove;
-    text-shadow: 0 0 1px grey;
-    color: transparent;
+    border-style: double;
+    text-shadow: 7px 8px gray;
+    /* color: transparent; */
 }
 
 .boatswain {
@@ -84,12 +86,45 @@ ul {
 
 li {
     float: left;
-    background-color: lightgreen;
+    background-color: darkgreen;
     text-align: start;
     display: flexbox;
     padding: 8px;
 }
 
 li:hover {
-    background-color: darkgreen;
+    background-color: lightgreen;
+}
+
+.background {
+    background-image: url('Images/Background.jpg');
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 200%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: lightgray;
+    color: black;
+    width: 187%;
+    transition: 0.5s ease;
+    opacity: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
 }
